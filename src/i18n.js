@@ -48,9 +48,9 @@ const translationFR = {
     q2: "Puis-je réserver à l'avance ?",
     a2: "Oui, nous recommandons de réserver plusieurs semaines à l'avance pour garantir la disponibilité de la voiture de votre choix.",
     q3: "Quels sont les modes de paiement acceptés ?",
-    a3: "Nous acceptons les paiements en espèces, par virement bancaire et via les applications de paiement locales.",
+    a3: "Nous acceptons les paiements en espèces.",
     q4: "Fournissez-vous des chauffeurs ?",
-    a4: "Oui, la plupart de nos locations pour mariages incluent un chauffeur professionnel."
+    a4: "Oui, la plupart de nos locations pour mariages incluent un chauffeur."
   },
   error: {
     loadFailed: "Impossible de charger les véhicules actuellement. Veuillez réessayer plus tard.",
@@ -111,9 +111,9 @@ const translationAR = {
     q2: "هل يمكنني الحجز مسبقاً؟",
     a2: "نعم، نوصي بالحجز قبل عدة أسابيع لضمان توفر السيارة التي تختارها.",
     q3: "ما هي طرق الدفع المقبولة؟",
-    a3: "نقبل الدفع نقداً، والتحويلات البنكية، وتطبيقات الدفع المحلية.",
+    a3: "نقبل الدفع نقداً.",
     q4: "هل توفرون سائقين؟",
-    a4: "نعم، معظم إيجاراتنا لحفلات الزفاف تشمل سائقاً محترفاً."
+    a4: "نعم، معظم إيجاراتنا لحفلات الزفاف تشمل سائق ."
   },
   error: {
     loadFailed: "تعذر تحميل السيارات حالياً، يرجى المحاولة لاحقاً.",
