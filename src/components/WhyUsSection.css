@@ -1,0 +1,51 @@
+.why-us-bg-glow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 500px;
+  height: 500px;
+  background-color: var(--accent-gold);
+  border-radius: 50%;
+  filter: blur(150px);
+  opacity: 0.1;
+  pointer-events: none;
+  transform: translate(50%, -50%);
+}
+
+html[dir="rtl"] .why-us-bg-glow {
+  right: auto;
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+
+.why-card {
+  padding: 2rem;
+  border-radius: var(--border-radius-md);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  transition: var(--transition-smooth);
+}
+
+.why-card:hover {
+  border-color: rgba(212, 175, 55, 0.3);
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translateY(-5px);
+}
+
+.icon-wrapper {
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.why-card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.why-card-desc {
+  line-height: 1.8;
+}
